@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "development"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 12.5",
+    "not and_ff <= 105",
+    "not firefox <= 105",
+    "not ios_saf <= 14.8",
+    "not opera <= 91",
+    "not and_chr <= 106",
+    "not chrome <= 106",
+    "not edge <= 106",
+    "not ios_saf <= 16",
+    "not safari <= 16",
+    "not samsung <= 18"
+  ],
+  "hints": {
+    "no-inline-styles": "off",
+    "button-type": "off"
+  }
+}

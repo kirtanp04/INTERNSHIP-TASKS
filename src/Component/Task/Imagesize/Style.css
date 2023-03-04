@@ -1,0 +1,128 @@
+.file{
+    margin-top: 5rem;
+    margin-left: 7rem;
+   
+    
+
+}
+.boxs{
+    position: fixed;
+}
+.progres{
+    margin-left: 35rem;
+}
+.range{
+    margin-top: 0.5rem;
+}
+.num{
+    margin-left: 10rem;
+    margin-top: -2rem;
+}
+
+  
+.image1,.image2{
+    width: 30%;
+    height: 30%;
+    
+   
+}
+.image1{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.image2{
+    margin-left: 50rem;
+    margin-top: -15rem;
+}
+.imgs{
+    position: sticky;
+}
+.buttons1{
+    color: #3b82f6;
+    background-color: whitesmoke;
+    border: none;
+    width: 13rem;
+    border-radius: 1rem;
+    height: 3rem;
+    border: 1px solid #3b82f6;
+    margin-left: 36rem;
+}
+.buttons2{
+    color: #3b82f6;
+    background-color: whitesmoke;
+    border: none;
+    width: 13rem;
+    border: 1px solid #3b82f6;
+    border-radius: 1rem;
+    height: 3rem;
+    margin-left: 36rem;
+}
+
+.file-upload-button{
+    margin-left: 30rem;
+}
+@media (max-width:768px){
+    .file-upload-button{
+        margin-left: 12rem;
+    }
+    .buttons1,.buttons2{
+        margin-top:5rem;
+        margin-left: 6rem;
+
+    }
+    .progres{
+        margin-left: 18rem;
+    }
+    .image1{
+        margin-top: 4rem;
+        margin-left: 12rem;
+        width: 50%;
+    }
+    .image2{
+        margin-top: 6rem;
+        margin-left: 12rem;
+        width: 50%;
+    }
+
+}
+@media (max-width:414px){
+    .file-upload-button{
+        margin-left: 2rem;
+        width: 20rem;   
+    }
+    .image1{
+        margin-left: 2.5rem;
+        /* margin-top: -0.5rem; */
+        width: 80%;
+    }
+    .progres{
+        margin-left: 7rem;
+    }
+    .image2{
+        margin-left: 2.5rem;
+        margin-top: 1rem;
+        width: 80%;
+    }
+    .buttons2{
+        margin-top: 1rem;
+    }
+    .buttons1{
+        margin-top: 2rem;
+    }
+}
+@media (max-height:667px) {
+    .image1{
+        width: 60%;
+        margin-top: 0.5rem;
+        margin-left: 5rem;
+    }
+    .image2{
+        width: 60%;
+        margin-top: 0.5rem;
+        margin-left: 5rem;
+    }
+    
+}
+
+
+
