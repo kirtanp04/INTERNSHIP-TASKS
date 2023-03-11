@@ -53,7 +53,7 @@ setInterval(Update,1000)
           <li><NavLink className="dropdown-item" to='/task/play-with-image'><span className='drop'>Compress Image</span></NavLink></li>
           <li><NavLink className="dropdown-item" to='/task/resume'><span className='drop'>Resume Builder</span></NavLink></li>
             <li><NavLink className="dropdown-item" to='/task/Qr-code'><span className='drop'> Generate QR </span></NavLink></li>  
-            <li><NavLink className="dropdown-item" to='/task/Weather'><span className='drop'> Check Weather</span></NavLink></li>
+            
             <li><NavLink className="dropdown-item" to='/task/news'><span className='drop'> Latest News</span></NavLink></li>
             <li><NavLink className="dropdown-item" to='/task/dictonary'><span className='drop'> Dictonary</span></NavLink></li>
             <li onClick={()=>{window.open('https://kirtan-ai.netlify.app/')}}><Link><span className='drop'>Work with AI</span></Link></li>
